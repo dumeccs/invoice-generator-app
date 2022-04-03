@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: #000000;
+    color:#fff;
+    padding:100px;
+    font-family: 'Inter', sans-serif;
+}
+
+h1,h2,p{
+    margin:0;
+    
+}
+
+.container{
+    width: 550px;
+    height: 719px;
+    margin:0 auto;
+}
+header{
+    background-color: #3A69D2;
+    padding: 60px 90px;
+    
+}
+
+main{
+    background-color: #1F2937;
+    padding: 25px;
+}
+
+.btn-grp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.select-btn{
+    padding:14px 45px;
+    border-radius: 7px;
+    background-color: #D1D4F4;
+    color:#4A4E74;
+    
+}
+.recieve-task{
+    margin-bottom: 90px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    color: #D5D4D8;
+}
+
+.summary{
+    justify-content: space-between;
+    margin-bottom: 90px;
+    font-size: small;
+    color: #D5D4D8;
+}
+.summary-elements{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cash-value{
+    text-align: right;
+}
+
+hr{
+    margin-top:50px;
+}
+
+.send{
+    width: 100%;
+    padding: 20px;
+    background-color: #3A69D2;
+    border-radius: 4px;
+    color: #fff;
+
+}
